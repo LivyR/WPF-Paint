@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <RootNamespace>WPF_Paint</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images_YFe_icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images_YFe_icon.ico" />
+  </ItemGroup>
+
+</Project>
